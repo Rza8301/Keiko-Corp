@@ -48,11 +48,13 @@
 .navbar ul {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
   list-style: none;
 }
+
+
 
 .navbar ul.menu li {
   cursor: pointer;
@@ -61,6 +63,8 @@
   color: #423f3f;
   transition: all ease-in 0.1s;
 }
+
+
 
 .navbar ul.menu li:hover {
   color: #000000;
@@ -85,6 +89,10 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+.link-btn {
+  border: 6px;
 }
 
 .nav-button {
